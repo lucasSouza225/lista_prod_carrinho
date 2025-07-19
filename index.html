@@ -5,24 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lista de Produtos com Carrinho</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" href="./assets/images/favicon-32x32.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <div class="container">
-    <main class="conteudo-principal">
-      <h1 class="titulo-pagina">Lista de produtos</h1>
+  <main class="container">
+    <div class="conteudo-principal">
+      <h1 class="titulo-pagina">Lista de Produtos</h1>
 
       <div class="grade-produtos">
 
-        <!-- Produto -->
+       
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-waffle-mobile.jpg" alt="Waffle com Frutas Vermelhas" />
-            <button class="botao-adicionar" data-product="waffle">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="waffle">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Waffle</p>
@@ -31,12 +29,11 @@
           </div>
         </section>
 
+    
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-creme-brulee-mobile.jpg" alt="Creme Brûlée de Baunilha" />
-            <button class="botao-adicionar" data-product="creme-brulee">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="creme-brulee">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Crème Brûlée</p>
@@ -48,9 +45,7 @@
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-macaron-mobile.jpg" alt="Mix de Cinco Macarons" />
-            <button class="botao-adicionar" data-product="macaron">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="macaron">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Macaron</p>
@@ -59,12 +54,11 @@
           </div>
         </section>
 
+       
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-tiramisu-mobile.jpg" alt="Tiramisu Clássico" />
-            <button class="botao-adicionar" data-product="tiramisu">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="tiramisu">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Tiramisu</p>
@@ -73,12 +67,11 @@
           </div>
         </section>
 
+    
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-baklava-mobile.jpg" alt="Baklava de Pistache" />
-            <button class="botao-adicionar" data-product="baklava">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="baklava">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Baklava</p>
@@ -87,12 +80,11 @@
           </div>
         </section>
 
+        
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-meringue-mobile.jpg" alt="Torta de Limão Merengue" />
-            <button class="botao-adicionar" data-product="pie">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="pie">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Torta</p>
@@ -101,12 +93,11 @@
           </div>
         </section>
 
+        
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-cake-mobile.jpg" alt="Bolo de Veludo Vermelho" />
-            <button class="botao-adicionar" data-product="cake">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="cake">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Bolo</p>
@@ -115,12 +106,11 @@
           </div>
         </section>
 
+        
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-brownie-mobile.jpg" alt="Brownie de Caramelo Salgado" />
-            <button class="botao-adicionar" data-product="brownie">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="brownie">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Brownie</p>
@@ -129,12 +119,11 @@
           </div>
         </section>
 
+        
         <section class="cartao-produto">
           <div class="imagem-produto">
             <img src="assets/images/image-panna-cotta-mobile.jpg" alt="Panna Cotta de Baunilha" />
-            <button class="botao-adicionar" data-product="panna-cotta">
-              🛒 Adicionar ao carrinho
-            </button>
+            <button class="botao-adicionar" data-product="panna-cotta">🛒 Adicionar ao carrinho</button>
           </div>
           <div class="info-produto">
             <p class="categoria-produto">Panna Cotta</p>
@@ -144,37 +133,33 @@
         </section>
 
       </div>
-    </main>
+    </div>
 
-    <!-- Carrinho lateral -->
+    <!-- Carrinho -->
     <aside class="carrinho-lateral">
-      <div class="cabecalho-carrinho">
-        <h2>Seu carrinho (<span id="cart-count">0</span>)</h2>
+      <h2>Seu carrinho (<span id="cont-carrinho">0</span>)</h2>
+
+      <div id="carrinho-vazio" class="carrinho-vazio">
+        <img src="assets/images/illustration-empty-cart.svg" alt="Carrinho vazio" />
+        <p>Os itens adicionados aparecerão aqui</p>
       </div>
 
-      <div class="conteudo-carrinho">
-        <div id="empty-cart" class="carrinho-vazio">
-          <img src="assets/images/illustration-empty-cart.svg" alt="Carrinho vazio" />
-          <p>Os itens adicionados aparecerão aqui</p>
-        </div>
+      <div id="itens-carrinho" class="itens-carrinho"></div>
 
-        <div id="cart-items" class="itens-carrinho"></div>
-
-        <div id="cart-summary" class="resumo-carrinho" style="display: none;">
-          <div class="total-pedido">
-            <span>Total do pedido</span>
-            <span id="total-price">R$0.00</span>
-          </div>
-          <div class="entrega-info">
-            <span>🌱 Entrega <strong>carbono neutro</strong></span>
-          </div>
-          <button id="confirm-order-btn" class="botao-confirmar">Confirmar pedido</button>
+      <div id="resumo-carrinho" class="resumo-carrinho" style="display: none;">
+        <div class="total-pedido">
+          <span>Total do pedido</span>
+          <span id="preco-total">R$0.00</span>
         </div>
+        <div class="entrega-info">
+          <span>🌱 Entrega <strong>carbono neutro</strong></span>
+        </div>
+        <button id="conf-pedido-btn" class="botao-confirmar">Confirmar pedido</button>
       </div>
     </aside>
   </div>
 
-  <!-- Modal de confirmação -->
+  <!-- Modal -->
   <div id="order-modal" class="modal">
     <div class="conteudo-modal">
       <div class="cabecalho-modal">
@@ -185,21 +170,16 @@
 
       <div class="corpo-modal">
         <div id="order-items" class="itens-pedido"></div>
-
         <div class="total-modal">
           <span>Total do pedido</span>
           <span id="modal-total">R$0.00</span>
         </div>
       </div>
 
-      <button id="start-new-order-btn" class="botao-novo-pedido">
-        Iniciar novo pedido
-      </button>
+      <button id="novo-pedido-btn" class="botao-novo-pedido">Iniciar novo pedido</button>
     </div>
   </div>
 
-  <!-- JavaScript -->
   <script src="js/script.js"></script>
 </body>
-
 </html>
